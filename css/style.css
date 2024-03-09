@@ -1,0 +1,189 @@
+#logo{
+
+}
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+    border:2px solid black;
+    border-radius: 30px;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+
+}
+#navbar ul{
+
+    display: flex;
+    font-family:'Baloo Bhai', cursive;
+
+}
+#navbar ul li{
+    list-style:none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{
+
+    color: white;
+    /* display: block; */
+    display:block;
+    padding: 3px 22px;
+    border-radius:20px;
+    text-decoration:none;
+}
+#navbar ul li a{
+    
+    color: white;
+    /* display: block; */
+    display:block;
+    padding: 3px 22px;
+    border-radius:20px;
+    text-decoration:none;
+}
+#navbar::before{
+    content: "";
+    background-color:black;
+    position:absolute;
+    top: 0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+
+}
+
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+
+    
+
+}
+ #home{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding: 3px 200px;
+    align-items:center;
+    align-content: center;
+ }   
+ #home::before{
+    content: "";
+    background: url('../foody.jpg') no-repeat center center/cover;
+    position:absolute;
+    top: 0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity:0.89;
+
+
+}
+#home h1{
+    color:white;
+    text-align:center;
+    font-family:'Bree Serif', serif;
+}
+#home p{
+     color:white;
+    text-align:center;
+    font-size:'Bree  Serif', serif;
+    font-size:1.5em; 
+}
+#services{
+    margin:34px;
+    display: flex;
+}
+#services .box {
+    border:2px solid brown;
+    padding:34px;
+    margin:3px 6px;
+    border-radius: 28px;
+    background-color:rgb(rgb(132, 125, 125), green, blue) ;
+}
+#services img{
+    height:88px;
+    margin:auto;
+    display:block;
+}
+.h-primary{
+    
+    font-size: 3.8em;
+    padding: 78px;
+}
+.h-secondary{
+    font-size:2.8rem;
+    padding:12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin:17px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.center{
+    text-align: center;
+    margin: 34px;
+}
+.cls{
+    text-align: center;
+    padding: 19px;
+    margin: 3px;
+    font-size: 3.5em;
+}
+
+
+.clientlogo img{
+    height: 113px;
+    width: 105px;
+    display: flex;
+}
+.clients{
+    display: flex;
+    padding: 27px;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.clients::before{
+    content: "";
+    position: absolute;
+    background: url('../food.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+   }
+.h-primary .center{
+    justify-content: center;
+}
+#contact-box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 9px;
+    padding: 45px;
+}
+#contact-box form{
+    width: 40%;
+}
+.center1{
+     padding: 88px;
+     margin: 12px;  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
